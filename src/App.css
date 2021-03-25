@@ -1,0 +1,34 @@
+html{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.click-button{
+font-size: 30px;
+background-color: aquamarine;
+border-radius: 10px;
+border: none;
+text-shadow: black;
+}
+.click-button:hover{
+  background-color: rgb(2, 247, 165);
+  cursor: pointer;
+
+}
+.joke-container{
+  font-size: 20px;
+  padding: 10px;
+}
